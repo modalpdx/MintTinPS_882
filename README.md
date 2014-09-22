@@ -14,6 +14,23 @@ voltage regulator**, which gives us the following output voltage options:
 The adjustable voltage is activated by setting a jumper (ADJV). If the
 jumper is open, you get 3.3V.
 
+##Parts
+* "Standard" size mint tin
+* Maxim MAX882 voltage regulator (8 pin DIP)
+* 8 pin DIP socket
+* 0.1uF capacitor (ceramic)
+* 1uF capacitor
+* 10k Bourns trimmer potetiometer (3306)
+* 2-pin male header (2.54mm/0.1") & jumper
+
+Optional for power connection:
+* 2 x 2 male header (2.54mm/0.1"), right-angled 
+* Two 1 x 2 female headers (2.54mm/0.1") for power wires
+
+Other:
+* Risers to elevate the board off of the tin, or
+* Something else to fully insulate the bottom of the board
+
 ##Setting the adjustable voltage
 
 The level of the adjustable voltage is set with a trimmer potentiometer on
