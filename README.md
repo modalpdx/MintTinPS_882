@@ -1,4 +1,4 @@
-MintTinPS_882
+#MintTinPS_882
 
 A simple power supply board for "standard" mint tins. Examples: Altoids,
 Penguin Mints, Mintz. The board is sized/shaped to fit in the tin while
