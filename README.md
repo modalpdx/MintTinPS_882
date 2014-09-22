@@ -20,7 +20,7 @@ jumper is open, you get 3.3V.
 * 8 pin DIP socket
 * 0.1uF capacitor (ceramic)
 * 1uF capacitor
-* 10k Bourns trimmer potetiometer (3306)
+* 10k Bourns trimmer potentiometer (3306)
 * 2-pin male header (2.54mm/0.1") & jumper
 
 Optional for power connection:
