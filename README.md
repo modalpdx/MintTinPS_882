@@ -96,3 +96,7 @@ It's possible that the Maxim MAX883 is a drop-in replacement for the
 MAX882. This chip would give you everything the MAX882 offers but the
 non-adjustable voltage would be 5V instead of 3.3V. Not recommended, but
 you're free to swap.
+
+Also note: the first run of PCBs has not been received as of 10/30/2014.
+Please do not produce PCBs from the Gerber files until I can verify that
+the PCB design works.
