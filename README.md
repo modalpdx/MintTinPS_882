@@ -15,11 +15,11 @@ The adjustable voltage is activated by setting a jumper (ADJV). If the
 jumper is open, you get 3.3V.
 
 ##Parts
-* "Standard" size mint tin
+* "Standard" size mint tin (ex: large Altoids/Mintz/Penguin Mints tin)
 * Maxim MAX882 voltage regulator (8 pin DIP)
-* 8 pin DIP socket
+* 8 pin DIP socket (optional, but smart)
 * 0.1uF capacitor (ceramic)
-* 1uF capacitor
+* 2.2uF capacitor
 * 10k Bourns trimmer potentiometer (3306)
 * 2-pin male header (2.54mm/0.1") & jumper
 
@@ -28,7 +28,7 @@ Optional for power connection:
 * Two 1 x 2 female headers (2.54mm/0.1") for power wires
 
 Other:
-* Risers to elevate the board off of the tin, or
+* Spacers to elevate the board off of the tin, and/or
 * Something else to fully insulate the bottom of the board
 
 ##Setting the adjustable voltage
@@ -97,6 +97,6 @@ MAX882. This chip would give you everything the MAX882 offers but the
 non-adjustable voltage would be 5V instead of 3.3V. Not recommended, but
 you're free to swap.
 
-Also note: the first run of PCBs has not been received as of 10/30/2014.
-Please do not produce PCBs from the Gerber files until I can verify that
-the PCB design works.
+Also note: the first run of PCBs has been received but they have not been
+tested yet. Please do not produce PCBs from the Gerber files until I can
+verify that the PCB design works.
