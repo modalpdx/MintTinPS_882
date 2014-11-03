@@ -90,13 +90,20 @@ supply that offers 3.3V plus one adjustable voltage, so when 5V goes away,
 I'll still have 3.3V and one other up-and-coming voltage (looks like 2.5V
 may be the next one).
 
-##Misc
+##Miscellaneous Notes
 
-It's possible that the Maxim MAX883 is a drop-in replacement for the
-MAX882. This chip would give you everything the MAX882 offers but the
-non-adjustable voltage would be 5V instead of 3.3V. Not recommended, but
-you're free to swap.
+If you want the power supply to default to 5V instead of 3.3V, the Maxim
+MAX883 should be a drop-in replacement for the MAX882. This chip would
+give you everything the MAX882 offers but the non-adjustable voltage would
+be 5V. The adjustable voltage is handled identically to the MAX882.
 
-Also note: the first run of PCBs has been received but they have not been
-tested yet. Please do not produce PCBs from the Gerber files until I can
-verify that the PCB design works.
+The first run of PCBs from DirtyPCBs has been tested and they work fine.
+With the jumper out I get 3.3V and with the jumper in I get my adjustable,
+dialed-in voltage.
+
+If you decide to make some boards from my Gerbers, please note that the
+silkscreen on the back currently runs off of the board. I'll chalk it up
+to bad judgement, too many damn words, and an incorrect font loaded in
+Eagle, all my fault.  It's just a silkscreen and you won't see it when the
+board is mounted in a tin so fixing it isn't high on my priority list, but
+it'll happen some day, promise.
