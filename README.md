@@ -73,7 +73,8 @@ blinkenlights.
 * Maximum current: 200mA
 * Linear regulators are not the most efficient
 
-This is a perfectly capable power supply for breadboarding.
+This is a perfectly capable power supply for breadboarding. If you need a
+power supply for something else, this isn't it. 
 
 ##Motivation
 
