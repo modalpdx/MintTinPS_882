@@ -5,8 +5,7 @@ Penguin Mints, Mintz. The board is sized/shaped to fit in the tin while
 still allowing enough room for up to three AA batteries in an open holder
 and a mini-toggle to switch the power supply on/off.
 
-This version of the mint tin power supply uses a **Maxim MAX882 linear
-voltage regulator**, which gives us the following output voltage options:
+This version of the mint tin power supply uses a [**Maxim MAX882 linear voltage regulator**](http://www.maximintegrated.com/en/products/power/linear-regulators/MAX882.html "MAX882 Info"), which gives us the following output voltage options:
 
 * Default voltage: 3.3V
 * Adjustable voltage: 1.25V to 11V
