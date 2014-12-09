@@ -5,8 +5,7 @@ Penguin Mints, Mintz. The board is sized/shaped to fit in the tin while
 still allowing enough room for up to three AA batteries in an open holder
 and a mini-toggle to switch the power supply on/off.
 
-This version of the mint tin power supply uses a **Maxim MAX882 linear
-voltage regulator**, which gives us the following output voltage options:
+This version of the mint tin power supply uses a [**Maxim MAX882 linear voltage regulator**](http://www.maximintegrated.com/en/products/power/linear-regulators/MAX882.html "MAX882 Info"), which gives us the following output voltage options:
 
 * Default voltage: 3.3V
 * Adjustable voltage: 1.25V to 11V
@@ -15,11 +14,11 @@ The adjustable voltage is activated by setting a jumper (ADJV). If the
 jumper is open, you get 3.3V.
 
 ##Parts
-* "Standard" size mint tin
+* "Standard" size mint tin (ex: large Altoids/Mintz/Penguin Mints tin)
 * Maxim MAX882 voltage regulator (8 pin DIP)
-* 8 pin DIP socket
+* 8 pin DIP socket (optional, but smart)
 * 0.1uF capacitor (ceramic)
-* 1uF capacitor
+* 2.2uF capacitor
 * 10k Bourns trimmer potentiometer (3306)
 * 2-pin male header (2.54mm/0.1") & jumper
 
@@ -28,7 +27,7 @@ Optional for power connection:
 * Two 1 x 2 female headers (2.54mm/0.1") for power wires
 
 Other:
-* Risers to elevate the board off of the tin, or
+* Spacers to elevate the board off of the tin, and/or
 * Something else to fully insulate the bottom of the board
 
 ##Setting the adjustable voltage
@@ -73,7 +72,8 @@ blinkenlights.
 * Maximum current: 200mA
 * Linear regulators are not the most efficient
 
-This is a perfectly capable power supply for breadboarding.
+This is a perfectly capable power supply for breadboarding. If you need a
+power supply for something else, this isn't it. 
 
 ##Motivation
 
@@ -90,9 +90,20 @@ supply that offers 3.3V plus one adjustable voltage, so when 5V goes away,
 I'll still have 3.3V and one other up-and-coming voltage (looks like 2.5V
 may be the next one).
 
-##Misc
+##Miscellaneous Notes
 
-It's possible that the Maxim MAX883 is a drop-in replacement for the
-MAX882. This chip would give you everything the MAX882 offers but the
-non-adjustable voltage would be 5V instead of 3.3V. Not recommended, but
-you're free to swap.
+If you want the power supply to default to 5V instead of 3.3V, the Maxim
+MAX883 should be a drop-in replacement for the MAX882. This chip would
+give you everything the MAX882 offers but the non-adjustable voltage would
+be 5V. The adjustable voltage is handled identically to the MAX882.
+
+The first run of PCBs from DirtyPCBs has been tested and they work fine.
+With the jumper out I get 3.3V and with the jumper in I get my adjustable,
+dialed-in voltage.
+
+If you decide to make some boards from my Gerbers, please note that the
+silkscreen on the back currently runs off of the board. I'll chalk it up
+to bad judgement, too many damn words, and an incorrect font loaded in
+Eagle, all my fault.  It's just a silkscreen and you won't see it when the
+board is mounted in a tin so fixing it isn't high on my priority list, but
+it'll happen some day, promise.
