@@ -111,5 +111,5 @@ If you decide to make some boards from my Gerbers, please note that the
 silkscreen on the back currently runs off of the board. I'll chalk it up
 to bad judgement, too many damn words, and an incorrect font loaded in
 Eagle, all my fault.  It's just a silkscreen and you won't see it when the
-board is mounted in a tin so fixing it isn't high on my priority list, but
-it'll happen some day, promise.
+board is mounted in a tin. As this board is "obsolete" I'm not planning to
+fix this. 
