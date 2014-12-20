@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -11450,7 +11450,7 @@ Metric Code Size 5664</description>
 <part name="MAX882" library="max882_883_884" deviceset="MAX882/883/884" device=""/>
 <part name="R1" library="dp_devices" deviceset="TRIMMER" device="-3306F" value="10k"/>
 <part name="ADJV" library="jumper" deviceset="JP1E" device=""/>
-<part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-5" value="2K2uF"/>
+<part name="C1" library="rcl" deviceset="CPOL-US" device="E2.5-5" value="2.2uF"/>
 <part name="C2" library="resistor" deviceset="C-US" device="025-024X044" value="0.1uF"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="POW" library="pinhead" deviceset="PINHD-2X2" device="2X02/90NOSILK"/>
