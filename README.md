@@ -20,11 +20,10 @@ The adjustable voltage is activated by setting a jumper (ADJV). If the
 jumper is open, you get 3.3V.
 
 ##Parts
-* "Standard" size mint tin (ex: large Altoids/Mintz/Penguin Mints tin)
 * Maxim MAX882 voltage regulator (8 pin DIP)
 * 8 pin DIP socket (optional, but smart)
-* 0.1uF capacitor (ceramic)
-* 2.2uF capacitor
+* 0.1uF capacitor (ceramic, C2 on the board)
+* 2.2uF capacitor (polarized, C1 on the board)
 * 10k Bourns trimmer potentiometer (3306)
 * 2-pin male header (2.54mm/0.1") & jumper
 
@@ -33,7 +32,8 @@ Optional for power connection:
 * Two 1 x 2 female headers (2.54mm/0.1") for power wires
 
 Other:
-* Spacers to elevate the board off of the tin, and/or
+* "Standard" size mint tin (ex: large Altoids/Mintz/Penguin Mints tin)
+* .125" spacers (I'm guessing adhesive, nylon) if spacers are your thing
 * Something else to fully insulate the bottom of the board
 
 ##Setting the adjustable voltage
@@ -107,9 +107,10 @@ The first run of PCBs from DirtyPCBs has been tested and they work fine.
 With the jumper out I get 3.3V and with the jumper in I get my adjustable,
 dialed-in voltage.
 
-If you decide to make some boards from my Gerbers, please note that the
-silkscreen on the back currently runs off of the board. I'll chalk it up
-to bad judgement, too many damn words, and an incorrect font loaded in
-Eagle, all my fault.  It's just a silkscreen and you won't see it when the
-board is mounted in a tin. As this board is "obsolete" I'm not planning to
-fix this. 
+##VERSIONS
+
+0.1 - Initial version.
+
+0.2 - Fixed arrangement of power pins, mount holes now .125", fixed silk
+on bottom, fixed C1 on schematic.
+
